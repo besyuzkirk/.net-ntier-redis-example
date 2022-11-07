@@ -18,6 +18,6 @@ namespace Core.Utilites.Results
             Data = data;
         }
 
-        public T Data { get; }
+        public T Data { get; set;}
     }
 }

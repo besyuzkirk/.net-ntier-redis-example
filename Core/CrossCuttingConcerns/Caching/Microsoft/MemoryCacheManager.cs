@@ -64,7 +64,7 @@ namespace Core.CrossCuttingConcerns.Caching.Microsoft
                 .Invoke(this, new object[] { result });
         }
 
-        public bool IsAdded(string key)
+        public bool IsAdd(string key)
         {
             return _cache.TryGetValue(key, out _);
         }

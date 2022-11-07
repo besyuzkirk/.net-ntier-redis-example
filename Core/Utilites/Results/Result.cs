@@ -22,8 +22,8 @@ namespace Core.Utilites.Results
             Success = success;
         }
 
-        public bool Success { get; }
+        public bool Success { get; set; }
 
-        public string Message { get; }
+        public string Message { get; set; }
     }
 }
